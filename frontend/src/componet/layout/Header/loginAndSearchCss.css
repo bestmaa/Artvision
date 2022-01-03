@@ -1,0 +1,12 @@
+.mainLoginAndSearch{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1001;
+}
+.loginAndSerach{
+    display: flex;
+}
+.iconImg{
+    padding: 5px;
+}

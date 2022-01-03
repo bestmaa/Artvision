@@ -1,0 +1,49 @@
+.menuicon {
+  padding: 8px;
+  z-index: 1000;
+  background-color: rgb(191, 223, 89);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transition: 0.5s;
+  width: 5vmax;
+  height: 5vmax;
+  /* opacity: 0.6; */
+}
+.menuicon > h1 {
+  cursor: pointer;
+  display: inline-block;
+}
+.menuitem {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.menuname {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.menuname > a {
+  font-size: 2vmax;
+  display: inline-block;
+  margin-top: 50px;
+  text-decoration: none;
+  color: rgb(165, 104, 30);
+}
+.menuicon > h1 {
+  font-size: 3vmax;
+}
+@media (max-width: 600px) {
+  .menuname > a {
+    font-size: 5vmax;
+    /* color: blue; */
+  }
+}
